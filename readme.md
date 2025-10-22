@@ -22,34 +22,33 @@ A Python-based **voice assistant** that converts your speech into text, queries 
 | **Cross-Platform** | Works on Windows, Linux, and MacOS (requires microphone support). |
 
 ---
-
 ## 🚀 Installation
 
 1. **Clone the repository**:
 
 ```bash
 git clone https://github.com/yourusername/speech-assistant.git
-cd speech-assistant```
+cd speech-assistant
 
     Create a virtual environment (optional):
 
-```python -m venv venv
+python -m venv venv
 source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows```
+venv\Scripts\activate     # Windows
 
-2.    **Install dependencies**
+    Install dependencies:
 
-```pip install -r requirements.txt```
+pip install -r requirements.txt
 
     Set up environment variables:
 
-Create a .env file in the project root
+Create a .env file in the project root:
 
-```OPENROUTER_API_KEY=your_openrouter_api_key_here```
+OPENROUTER_API_KEY=your_openrouter_api_key_here
 
-Replace your_openrouter_api_key_here with your actual OpenRouter or Gemini API key.
+    Replace your_openrouter_api_key_here with your actual OpenRouter or Gemini API key.
 
-##🎤 Usage
+🎤 Usage
 
 Run the assistant:
 
@@ -61,7 +60,7 @@ python assistant.py
 
     Say exit, quit, or stop to end the session.
 
-##📦 Dependencies
+📦 Dependencies
 
     requests – API communication
 
@@ -77,7 +76,7 @@ Install all dependencies with:
 
 pip install requests speechrecognition gTTS playsound python-dotenv
 
-##⚠️ Notes
+⚠️ Notes
 
     Ensure your microphone works properly.
 
@@ -85,6 +84,6 @@ pip install requests speechrecognition gTTS playsound python-dotenv
 
     Temporary audio files are deleted after playback automatically.
 
-##📄 License
+📄 License
 
 This project is licensed under the MIT License.
