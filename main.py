@@ -8,9 +8,9 @@ import playsound
 # Load environment variables from .env file
 load_dotenv()
 # Get the API key from the environment variable
-API_KEY = os.getenv('OPENROUTER_API_KEY')
+API_KEY = os.getenv('GEMINI_API_KEY')
 if not API_KEY:
-    raise ValueError("OPENROUTER_API_KEY not found. Please set it in the .env file or environment variables.")
+    raise ValueError("GEMINI_API_KEY not found. Please set it in the .env file or environment variables.")
 
 # Initialize the recognizer
 recognizer = sr.Recognizer()
@@ -47,7 +47,7 @@ def listen():
 import requests
 
 def gemini_query(query):
-    API_KEY = 'AIzaSyCkMHAdK8zLget-A796EqLEtGWZoAOR9XE'  # Replace with your Google AI Studio API key
+    API_KEY = API_KEY
     MODEL = "gemini-2.5-flash"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 
