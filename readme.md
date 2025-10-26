@@ -22,7 +22,7 @@ A Python-based **voice assistant** that converts your speech into text, queries 
 | **Cross-Platform** | Works on Windows, Linux, and MacOS (requires microphone support). |
 
 ---
-## 🚀 Installation
+** 🚀 Installation**
 
 1. **Clone the repository**:
 
@@ -48,7 +48,7 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 
     Replace your_openrouter_api_key_here with your actual OpenRouter or Gemini API key.
 
-🎤 Usage
+**🎤 Usage**
 
 Run the assistant:
 
@@ -60,7 +60,7 @@ python assistant.py
 
     Say exit, quit, or stop to end the session.
 
-📦 Dependencies
+**📦 Dependencies**
 
     requests – API communication
 
@@ -76,7 +76,7 @@ Install all dependencies with:
 
 pip install requests speechrecognition gTTS playsound python-dotenv
 
-⚠️ Notes
+**⚠️ Notes**
 
     Ensure your microphone works properly.
 
@@ -89,7 +89,7 @@ pip install requests speechrecognition gTTS playsound python-dotenv
 This project is licensed under the MIT License.
 
 
-## 💬 Connect With Me
+** 💬 Connect With Me**
 
 <p align="center">
   <a href="https://github.com/TGvenomYT">
