@@ -26,7 +26,7 @@ A Python-based **voice assistant** that converts your speech into text, queries 
 
 1. **Clone the repository**:
 
-```bash
+bash
 git clone https://github.com/yourusername/speech-assistant.git
 cd speech-assistant
 
@@ -87,3 +87,18 @@ pip install requests speechrecognition gTTS playsound python-dotenv
 📄 License
 
 This project is licensed under the MIT License.
+
+
+## 💬 Connect With Me
+
+<p align="center">
+  <a href="https://github.com/TGvenomYT">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://Discord.com/users/tgvenom0441">
+     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+  </a>
+  <a href="mailto:rajicbe1969@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
