@@ -62,7 +62,7 @@ def listen():
 import requests
 
 def gemini_query(query):
-    API_KEY = API_KEY
+    #API_KEY = API_KEY
     MODEL = "gemini-2.5-flash"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 
