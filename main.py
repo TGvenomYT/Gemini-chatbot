@@ -15,9 +15,24 @@ if not API_KEY:
 # Initialize the recognizer
 recognizer = sr.Recognizer()
 
+# Clean text before speaking
+def clean_text(text):
+    # List of special characters you want to remove
+    chars_to_remove = ["*", "_", "#", "@", "/", "<", ">", "{", "}", "[", "]", "\\", "|", "`", "~", "^"]
+    
+    for ch in chars_to_remove:
+        text = text.replace(ch, "")  # Remove each unwanted symbol
+    
+    # Optional: remove extra spaces
+    text = " ".join(text.split())
+    
+    return text.strip()
+
+
 # Function to convert text to speech using gTTS
 def speak(text):
     try:
+        text=clean_text(text)
         tts = gTTS(text=text, lang='en')
         filename = "temp_speech.mp3"
         tts.save(filename)
