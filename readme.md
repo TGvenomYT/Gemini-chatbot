@@ -31,12 +31,11 @@ git clone https://github.com/yourusername/speech-assistant.git
 cd speech-assistant
 
     Create a virtual environment (optional):
-
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
-    Install dependencies:
+    Install dependencies:brew install portaudio/apt install portaudio/pacman install portaudio
 
 pip install -r requirements.txt
 
