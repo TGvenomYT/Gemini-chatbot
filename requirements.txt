@@ -1,6 +1,6 @@
 requests
 SpeechRecognition
 gtts
-PyAudio3
+PyAudio
 dotenv
-os
+playsound3
